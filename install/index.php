@@ -35,6 +35,7 @@ $checks = [
 <body>
   <h1>Installation</h1>
   <p>La page d'installation est accessible.</p>
+  <p><a href="/install/install.php">Ouvrir le script d'installation de l'application</a></p>
 
   <h2>Vérifications système</h2>
   <ul>
