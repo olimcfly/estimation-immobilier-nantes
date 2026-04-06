@@ -1,0 +1,59 @@
+<h2 style="color:#1f2937; margin:0 0 16px; font-size:22px;">
+    Votre bien à {{ville}} : et si on précisait l'estimation ?
+</h2>
+
+<p style="color:#4b5563; line-height:1.6;">
+    Bonjour {{prenom}},
+</p>
+
+<p style="color:#4b5563; line-height:1.6;">
+    Il y a quelques jours, vous avez estimé votre {{type_bien}}
+    à {{adresse}}. Notre outil a évalué votre bien à environ
+    <strong>{{prix_estime}} €</strong>.
+</p>
+
+<p style="color:#4b5563; line-height:1.6;">
+    Saviez-vous que l'estimation en ligne peut varier de
+    <strong>±15%</strong> par rapport à la réalité ?
+    Seul un expert local peut affiner ce chiffre en prenant en compte :
+</p>
+
+<ul style="color:#4b5563; line-height:2;">
+    <li>🏗️ L'état réel du bien et les travaux effectués</li>
+    <li>🌳 L'environnement immédiat (vue, nuisances, voisinage)</li>
+    <li>📊 Les ventes récentes comparables dans votre rue</li>
+    <li>📈 Les projets urbains qui impactent les prix</li>
+</ul>
+
+<table width="100%" cellpadding="20" cellspacing="0"
+       style="background:#eff6ff; border:1px solid #bfdbfe;
+              border-radius:12px; margin:24px 0; text-align:center;">
+<tr><td>
+    <p style="color:#1e40af; font-size:14px; margin:0;">
+        Votre estimation en ligne
+    </p>
+    <p style="color:#1e40af; font-size:28px; font-weight:bold; margin:8px 0;">
+        {{prix_estime}} €
+    </p>
+    <p style="color:#1e40af; font-size:14px; margin:0;">
+        La valeur réelle pourrait être entre
+        <strong>{{prix_bas_large}} €</strong> et
+        <strong>{{prix_haut_large}} €</strong>
+    </p>
+</td></tr>
+</table>
+
+<table width="100%" cellpadding="0" cellspacing="0">
+<tr><td align="center" style="padding:16px 0;">
+    <a href="{{site_url}}/rdv?ref={{estimation_id}}&utm_source=email&utm_medium=relance&utm_campaign=j3"
+       style="display:inline-block; background:{{site_color}};
+              color:#ffffff; padding:16px 36px; border-radius:8px;
+              text-decoration:none; font-weight:700; font-size:16px;">
+        Obtenir une estimation précise (gratuit) →
+    </a>
+</td></tr>
+</table>
+
+<p style="color:#9ca3af; font-size:13px; text-align:center; margin-top:8px;">
+    RDV de 30 min · Sans engagement · 100% gratuit
+</p>

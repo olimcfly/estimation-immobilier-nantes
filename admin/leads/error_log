@@ -1,0 +1,16 @@
+[06-Apr-2026 19:04:02 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/sc2tasq5564/sites/bordeaux/core/includes/security.php on line 8
+[06-Apr-2026 19:04:02 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/sc2tasq5564/sites/bordeaux/core/includes/security.php on line 9
+[06-Apr-2026 19:04:02 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/sc2tasq5564/sites/bordeaux/core/includes/security.php on line 10
+[06-Apr-2026 19:04:02 UTC] PHP Fatal error:  Uncaught RuntimeException: Database configuration is incomplete (DB_HOST, DB_NAME, DB_USER). in /home/sc2tasq5564/sites/bordeaux/core/includes/database.php:19
+Stack trace:
+#0 /home/sc2tasq5564/sites/bordeaux/core/admin/leads/index.php(11): Database::getConnection()
+#1 {main}
+  thrown in /home/sc2tasq5564/sites/bordeaux/core/includes/database.php on line 19
+[06-Apr-2026 19:06:30 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/sc2tasq5564/sites/bordeaux/core/includes/security.php on line 8
+[06-Apr-2026 19:06:30 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/sc2tasq5564/sites/bordeaux/core/includes/security.php on line 9
+[06-Apr-2026 19:06:30 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/sc2tasq5564/sites/bordeaux/core/includes/security.php on line 10
+[06-Apr-2026 19:06:30 UTC] PHP Fatal error:  Uncaught RuntimeException: Database configuration is incomplete (DB_HOST, DB_NAME, DB_USER). in /home/sc2tasq5564/sites/bordeaux/core/includes/database.php:19
+Stack trace:
+#0 /home/sc2tasq5564/sites/bordeaux/core/admin/leads/index.php(11): Database::getConnection()
+#1 {main}
+  thrown in /home/sc2tasq5564/sites/bordeaux/core/includes/database.php on line 19

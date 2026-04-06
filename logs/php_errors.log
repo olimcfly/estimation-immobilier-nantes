@@ -1,0 +1,23 @@
+[06-Apr-2026 19:08:14 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/sc2tasq5564/sites/bordeaux/core/includes/security.php on line 8
+[06-Apr-2026 19:08:14 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/sc2tasq5564/sites/bordeaux/core/includes/security.php on line 9
+[06-Apr-2026 19:08:14 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/sc2tasq5564/sites/bordeaux/core/includes/security.php on line 10
+[06-Apr-2026 21:19:03 UTC] PHP Warning:  Undefined variable $villesNettoyees in /home/sc2tasq5564/sites/nantes/core/index.php on line 27
+[06-Apr-2026 21:24:14 UTC] PHP Warning:  Undefined variable $villesNettoyees in /home/sc2tasq5564/sites/nantes/core/index.php on line 27
+[06-Apr-2026 21:24:59 UTC] PHP Warning:  Undefined variable $villesNettoyees in /home/sc2tasq5564/sites/nantes/core/index.php on line 27
+[06-Apr-2026 21:26:39 UTC] PHP Warning:  Undefined variable $villesNettoyees in /home/sc2tasq5564/sites/nantes/index.php on line 27
+[06-Apr-2026 21:26:45 UTC] PHP Warning:  Undefined variable $villesNettoyees in /home/sc2tasq5564/sites/nantes/index.php on line 27
+[06-Apr-2026 21:28:59 UTC] PHP Warning:  Undefined variable $villesNettoyees in /home/sc2tasq5564/sites/nantes/index.php on line 27
+[06-Apr-2026 21:30:01 UTC] PHP Warning:  Undefined variable $villesNettoyees in /home/sc2tasq5564/sites/nantes/index.php on line 27
+[06-Apr-2026 21:30:02 UTC] PHP Warning:  Undefined variable $villesNettoyees in /home/sc2tasq5564/sites/nantes/index.php on line 27
+[06-Apr-2026 21:30:03 UTC] PHP Warning:  Undefined variable $villesNettoyees in /home/sc2tasq5564/sites/nantes/index.php on line 27
+[06-Apr-2026 21:30:04 UTC] PHP Warning:  Undefined variable $villesNettoyees in /home/sc2tasq5564/sites/nantes/index.php on line 27
+[06-Apr-2026 21:30:05 UTC] PHP Warning:  Undefined variable $villesNettoyees in /home/sc2tasq5564/sites/nantes/index.php on line 27
+[06-Apr-2026 21:30:05 UTC] PHP Warning:  Undefined variable $villesNettoyees in /home/sc2tasq5564/sites/nantes/index.php on line 27
+[06-Apr-2026 21:30:06 UTC] PHP Warning:  Undefined variable $villesNettoyees in /home/sc2tasq5564/sites/nantes/index.php on line 27
+[06-Apr-2026 21:30:07 UTC] PHP Warning:  Undefined variable $villesNettoyees in /home/sc2tasq5564/sites/nantes/index.php on line 27
+[06-Apr-2026 21:30:08 UTC] PHP Warning:  Undefined variable $villesNettoyees in /home/sc2tasq5564/sites/nantes/index.php on line 27
+[06-Apr-2026 21:30:09 UTC] PHP Warning:  Undefined variable $villesNettoyees in /home/sc2tasq5564/sites/nantes/index.php on line 27
+[06-Apr-2026 21:30:09 UTC] PHP Warning:  Undefined variable $villesNettoyees in /home/sc2tasq5564/sites/nantes/index.php on line 27
+[06-Apr-2026 21:30:10 UTC] PHP Warning:  Undefined variable $villesNettoyees in /home/sc2tasq5564/sites/nantes/index.php on line 27
+[06-Apr-2026 21:30:10 UTC] PHP Warning:  Undefined variable $villesNettoyees in /home/sc2tasq5564/sites/nantes/index.php on line 27
+[06-Apr-2026 21:30:10 UTC] PHP Warning:  Undefined variable $villesNettoyees in /home/sc2tasq5564/sites/nantes/index.php on line 27

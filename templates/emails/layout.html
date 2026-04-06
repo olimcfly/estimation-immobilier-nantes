@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{subject}}</title>
+    <!--[if mso]>
+    <style>table,td {font-family:Arial,sans-serif;}</style>
+    <![endif]-->
+</head>
+<body style="margin:0;padding:0;background-color:#f4f4f5;
+             font-family:Arial,Helvetica,sans-serif;">
+
+<table width="100%" cellpadding="0" cellspacing="0"
+       style="background-color:#f4f4f5; padding:20px 0;">
+<tr><td align="center">
+
+<table width="600" cellpadding="0" cellspacing="0"
+       style="background:#ffffff; border-radius:12px;
+              overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.05);">
+
+<tr>
+<td style="background-color:{{site_color}}; padding:24px 32px;
+           text-align:center;">
+    <h1 style="color:#ffffff; margin:0; font-size:24px;">
+        🏠 {{site_name}}
+    </h1>
+    <p style="color:rgba(255,255,255,0.8); margin:4px 0 0; font-size:14px;">
+        Estimation immobilière à {{city}}
+    </p>
+</td>
+</tr>
+
+<tr>
+<td style="padding:32px;">
+    {{CONTENT}}
+</td>
+</tr>
+
+<tr>
+<td style="background:#f9fafb; padding:24px 32px;
+           border-top:1px solid #e5e7eb;">
+    <p style="color:#9ca3af; font-size:12px; margin:0;
+              text-align:center; line-height:1.6;">
+        {{site_name}} - Estimation immobilière à {{city}}<br>
+        {{site_phone}}<br>
+        <a href="{{site_url}}" style="color:{{site_color}};">
+            {{site_url}}
+        </a><br><br>
+        <a href="{{site_url}}/politique-confidentialite"
+           style="color:#9ca3af; text-decoration:underline;">
+            Politique de confidentialité
+        </a> ·
+        <a href="{{site_url}}/mentions-legales"
+           style="color:#9ca3af; text-decoration:underline;">
+            Mentions légales
+        </a><br><br>
+        Vous recevez cet email car vous avez demandé une estimation
+        immobilière sur notre site. Pour ne plus recevoir nos emails,
+        <a href="{{site_url}}/unsubscribe?email={{recipient_email}}&token={{unsubscribe_token}}"
+           style="color:#9ca3af; text-decoration:underline;">
+            cliquez ici
+        </a>.
+    </p>
+</td>
+</tr>
+
+</table>
+</td></tr></table>
+</body>
+</html>

@@ -1,0 +1,12 @@
+[06-Apr-2026 19:24:29 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/sc2tasq5564/sites/bordeaux/core/pages/mentions-legales.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sc2tasq5564/sites/bordeaux/core/pages/mentions-legales.php on line 8
+[06-Apr-2026 19:24:54 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/sc2tasq5564/sites/bordeaux/core/pages/politique-confidentialite.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sc2tasq5564/sites/bordeaux/core/pages/politique-confidentialite.php on line 8
+[06-Apr-2026 21:03:15 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/sc2tasq5564/sites/bordeaux/core/pages/politique-confidentialite.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sc2tasq5564/sites/bordeaux/core/pages/politique-confidentialite.php on line 8
