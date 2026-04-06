@@ -1,0 +1,27 @@
+/*
+ * Hotfix anti "double sidebar" pour la section Google Ads.
+ * Hypothèse: .admin-sidebar = sidebar principale, .ga-sidebar = sidebar secondaire.
+ */
+
+body.admin-google-ads .layout {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+}
+
+/* Masquer la sidebar secondaire sur desktop */
+@media (min-width: 1024px) {
+  body.admin-google-ads .ga-sidebar {
+    display: none;
+  }
+}
+
+/* En mobile, transformer la sidebar secondaire en navigation horizontale */
+@media (max-width: 1023px) {
+  body.admin-google-ads .ga-sidebar {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 8px 0;
+  }
+}
