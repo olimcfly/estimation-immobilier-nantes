@@ -1,0 +1,27 @@
+# EstimIA - Apache rules (o2switch/cPanel)
+Options -Indexes
+ServerSignature Off
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Laisser passer les ressources existantes
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Rediriger vers front-controller
+  RewriteRule ^ index.php [L]
+</IfModule>
+
+# Protection des fichiers sensibles
+<FilesMatch "^(config\.php|\.env|composer\.(json|lock)|installed\.lock)$">
+  Require all denied
+</FilesMatch>
+
+# Entêtes de sécurité minimales
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>

@@ -1,0 +1,22 @@
+<?php
+
+declare(strict_types=1);
+
+return [
+    'app' => [
+        'env' => 'production',
+        'debug' => false,
+        'base_url' => 'https://nantes.votre-domaine.tld',
+        'timezone' => 'Europe/Paris',
+    ],
+    'database' => [
+        'driver' => 'mysql',
+        'host' => 'localhost',
+        'port' => 3306,
+        'database' => 'estimia',
+        'username' => 'estimia_user',
+        'password' => 'CHANGE_ME',
+        'charset' => 'utf8mb4',
+        'collation' => 'utf8mb4_unicode_ci',
+    ],
+];
